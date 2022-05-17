@@ -57,7 +57,6 @@ h1 {
 
 .container-boton:hover {
     height: 250px;
-    weight: 250 px;
 }
 
 .boton {
@@ -157,4 +156,42 @@ body {
     color: black;
     font-size: 14px;
     font-family: 'Quicksand', sans-serif;
+}
+
+/* PAGINA DE CONTACTO */
+
+.contenedorContacto{
+    justify-content: center;
+    height: 400px;
+    margin:0;
+    padding:30 px;
+}
+
+.contenedorContacto h2{
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contenedorContacto p{
+    font-family: 'Quicksand', sans-serif; 
+}
+
+
+.contenedorContacto.mapa{
+    justify-content: center;
+    height: 300px;
+    margin:0;
+    padding: 10px;
+}
+
+.contenedorContacto .mapa:hover{
+    background-color:red;
+    transform: translate(30px,30px);
+    filter:grayscale(70%);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 40px;
 }
